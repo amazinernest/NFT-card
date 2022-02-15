@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.container-card {
+  background-color: hsl(216, 50%, 16%);
+  width: 250px;
+  height: 450px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.image-avatar {
+  width: 210px;
+  height: 180px;
+  padding-top: 10px;
+  border-radius: 15px;
+  margin: 0 40px;
+  position: relative;
+  top: -50px;
+}
+
+.text-contain {
+  width: 290px;
+}
+
+h2 {
+  color: white;
+  font-family: "outfit" sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 40px;
+  position: relative;
+  top: -40px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-family: "outfit" sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-right: 90px;
+  margin-top: 5px;
+  position: relative;
+  top: -40px;
+  width: 80%;
+}
+
+.card-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: 40px;
+  position: relative;
+  top: -20px;
+}
+
+#ETH {
+  color: hsl(178, 100%, 50%);
+  font-size: 16px;
+}
+
+#time-left {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+}
+
+.eth-details {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+  align-items: center;
+}
+
+.clock {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+.ruler-rule {
+  border: 0.1px solid hsl(215, 32%, 27%);
+  width: 210px;
+  margin-left: 40px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+}
+.footer-avatar {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.footer-text {
+  margin-left: 80px;
+  position: relative;
+  top: -30px;
+}
+
+span {
+  color: white;
+}
